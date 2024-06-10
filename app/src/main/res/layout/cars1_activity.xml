@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:backgroundTint="#E84A4A4A"
+    android:backgroundTintMode="multiply"
+    tools:context=".Cars1Activity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="381dp"
+        android:layout_height="288dp"
+        android:text="Cars is a heartwarming animated film that follows the story of Lightning McQueen, a cocky and talented rookie race car who dreams of winning the prestigious Piston Cup. On his way to the final race in California, Lightning finds himself lost in the sleepy town of Radiator Springs after inadvertently damaging the road. In Radiator Springs, he meets a colorful cast of characters, including Mater, a lovable tow truck, and Sally, a charming Porsche. Through his interactions with the residents of Radiator Springs, Lightning learns important lessons about friendship, humility, and the true meaning of success. As he repairs the road and bonds with the locals, Lightning discovers that winning isn't everything and that the journey itself is more important than the destination. With its stunning animation, memorable characters, and heartwarming story, Cars is a timeless tale of redemption, friendship, and self-discovery that resonates with audiences of all ages."
+        android:textAlignment="inherit"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="156dp"
+        android:layout_height="360dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cars1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cars 1"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <ImageButton
+        android:id="@+id/back1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076"
+        android:onClick="onExitButtonClick"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:backgroundTint="#E84A4A4A"
+    android:backgroundTintMode="multiply"
+    tools:context=".Cars3Activity">
+
+    <ImageButton
+        android:id="@+id/back1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="156dp"
+        android:layout_height="360dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cars3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cars 3"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="393dp"
+        android:layout_height="343dp"
+        android:text="In Cars 3, Lightning McQueen, the legendary race car, faces a new set of challenges as he competes against a younger, faster generation of racers. After suffering a devastating crash during a race, Lightning finds himself struggling to keep up with the high-tech racing techniques of his new rivals, led by the arrogant and talented Jackson Storm.  Determined to prove that he still has what it takes to compete at the highest level, Lightning embarks on a journey of self-discovery and redemption. With the help of his loyal friends, including the trusty tow truck Mater and the spirited trainer Cruz Ramirez, Lightning learns to embrace his past and redefine his future.  As Lightning trains for the most important race of his career, the Florida 500, he must confront his own insecurities and fears while inspiring a new generation of racers. Along the way, Lightning discovers that success isn't just about crossing the finish line first but also about finding the strength to persevere in the face of adversity.  With its heartfelt story, stunning animation, and memorable characters, Cars 3 is a thrilling and emotional journey that celebrates the power of determination, friendship, and believing in oneself."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.877" />
+</androidx.constraintlayout.widget.ConstraintLayout>

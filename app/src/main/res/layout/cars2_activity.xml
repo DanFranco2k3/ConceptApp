@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:backgroundTint="#E84A4A4A"
+    android:backgroundTintMode="multiply"
+    tools:context=".Cars2Activity">
+
+    <ImageButton
+        android:id="@+id/back1Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@android:drawable/ic_menu_revert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="380dp"
+        android:layout_height="320dp"
+        android:text="In Cars 2, Lightning McQueen, the famous race car, finds himself caught up in an international espionage adventure. When Lightning and his best friend Mater, the lovable tow truck, head overseas to compete in the World Grand Prix, Mater gets unwittingly entangled in a top-secret mission involving British spy Finn McMissile and his partner, Holley Shiftwell. As they travel across the globe to compete in races in Tokyo, Italy, and London, Mater becomes the target of international criminals who mistake him for an American spy.  While Lightning McQueen focuses on winning the World Grand Prix, Mater finds himself thrust into the world of espionage, uncovering a plot to sabotage the race and destabilize the automotive industry. Along the way, Mater learns valuable lessons about friendship, loyalty, and being true to oneself.  With high-speed action, stunning animation, and an engaging plot, Cars 2 is a thrilling adventure that combines the excitement of international espionage with the heart and humor of the beloved characters from Radiator Springs.      "
+        android:textAlignment="inherit"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="156dp"
+        android:layout_height="360dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cars2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cars 2"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+</androidx.constraintlayout.widget.ConstraintLayout>
